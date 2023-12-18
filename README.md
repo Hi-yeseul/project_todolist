@@ -1,6 +1,7 @@
 ** Todo List **
 
-React.js 를 이용한 간단한 TODO LIST를 만들어 보았습니다. 
+React.js, 부트스트랩을 이용한 간단한 TODO LIST를 만들어 보았습니다. 
+
 로컬 스토리지를 이용함으로 별도의 DB가 필요하지 않습니다. 
 
 ![스크린샷 2023-12-18 200338](https://github.com/Hi-yeseul/project_todolist/assets/139529559/d09c917f-5e41-4a82-b92b-909b445bb590)
