@@ -28,14 +28,14 @@ const CreateTaskPopup = ({modal, toggle, save}) => {
   return (
     <div>
       <Modal isOpen={modal} toggle={toggle} >
-        <ModalHeader toggle={toggle}>
-          <div className='form-group'>
+        <ModalHeader >
+          <div className='justify-content-center'>
             <input type='text' className='form-control' value={taskName} onChange={handleChange} placeholder='제목을 쓰세요.' name='taskName'/>
           </div>
         </ModalHeader>
 
         <ModalBody>
-          <div className='form-group'>
+          <div className='justify-content-center'>
             <textarea rows="5" className='form-control' value={description} onChange={handleChange} placeholder='할일을 쓰세요.' name='descriptionName' />
           </div>
         </ModalBody>

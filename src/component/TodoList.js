@@ -41,7 +41,6 @@ const TodoList = () => {
     localStorage.setItem("taskList", JSON.stringify(tempList)) // 로컬스토리지 저장
     setModal(false)
     setTaskList(taskList)
-    window.location.reload() //새로고침
   }
 
   return (
